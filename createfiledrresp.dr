@@ -1,0 +1,98 @@
+{
+    "data": [
+        {
+            "type": "file",
+            "id": "e124eb86ff56fd6c2693bc0cbc529ddb88216d60130d8f305eb87f44fd9b66c0",
+            "attributes": {
+                "payload": {
+                    "id": "1a3c1e04-ab62-4c44-b4a3-873f5d50c07d",
+                    "date": "9 March 2019",
+                    "type": "diagnosis",
+                    "dosage": "1 tablet per day",
+                    "treatment": "Atovaquone plus proguanil",
+                    "description": "malaria",
+                    "prescription": "30 tablets"
+                },
+                "file-type": "001",
+                "issue-cmr": "8937ba2334a66ecbf68159fb7beb22384048f50197406575ba81d344119d4b1a"
+            },
+            "links": {
+                "self": "http://api.todaqfinance.net/files/e124eb86ff56fd6c2693bc0cbc529ddb88216d60130d8f305eb87f44fd9b66c0"
+            },
+            "meta": {
+                "last-modified": 1552160717307
+            },
+            "relationships": {
+                "initial-account": {
+                    "data": {
+                        "type": "account",
+                        "id": "692e64b3-e252-43e7-a289-353f40945c4d"
+                    }
+                },
+                "owner": {
+                    "data": {
+                        "type": "account",
+                        "id": "692e64b3-e252-43e7-a289-353f40945c4d"
+                    }
+                }
+            }
+        },
+        {
+            "type": "change",
+            "id": "51fd7be6-0dcf-4cdd-971e-ecd2bb266828",
+            "meta": {
+                "last-modified": null
+            }
+        }
+    ],
+    "meta": {
+        "total-results": 2
+    },
+    "included": [
+        {
+            "type": "account",
+            "id": "692e64b3-e252-43e7-a289-353f40945c4d",
+            "attributes": {
+                "business-contact": {
+                    "name": "John",
+                    "email": "jones@doctors.com",
+                    "phone": "01702342593",
+                    "address": {
+                        "city": "westcliff",
+                        "country": "UK",
+                        "postal-code": "SS0 9HW",
+                        "province-region": "ES",
+                        "street-address-1": "1 main street",
+                        "street-address-2": ""
+                    }
+                },
+                "enterprise-id": "f75af6ca-3c9f-4485-87b9-03652787ada7",
+                "admin-email": "drjones@doctors.com",
+                "business-type": "sole-proprietorship",
+                "is-active": true,
+                "business-number": "98786",
+                "account-type": "business",
+                "contact": {
+                    "email": "janice@doctors.com",
+                    "phone": "01702341593",
+                    "address": {
+                        "city": "westcliff",
+                        "country": "uk",
+                        "postal-code": "ss0 9hw",
+                        "province-region": "es",
+                        "street-address-1": "2 main street",
+                        "street-address-2": "2"
+                    },
+                    "last-name": "thompson",
+                    "first-name": "janice"
+                }
+            },
+            "links": {
+                "self": "http://api.todaqfinance.net/accounts/692e64b3-e252-43e7-a289-353f40945c4d"
+            },
+            "meta": {
+                "last-modified": 1552153336579
+            }
+        }
+    ]
+}
